@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Divisões e Span</title><meta charset="utf-8">
+		<title>Bordas</title><meta charset="utf-8">
 		<style type="text/css">
 			p{color: blue;}
 			.verde{color: green;}
@@ -15,6 +15,20 @@
 					text-align: center;}
 			#assinatura{background: green;
 				text-align: center;}
+			#bordas{border-width:20px 15px 10px 5px;
+				border-color:red blue pink grey;
+				border-style: double solid dashed dotted;
+				text-align: center; }
+			#dotted{border:5px dotted green;}
+			#dashed{border:5px dashed green;}
+			#solid{border:5px solid green;}
+			#double{border:5px double green;}
+			#groove{border:5px groove green;}
+			#ridge{border:5px ridge green;}
+			#inset{border:5px inset green;}
+			#outset{border:5px outset green;}
+			#none{border:5px none green;}
+			#hidden{border:5px hidden green;}
 		</style>
 	</head>
 	<body id="principal">
@@ -35,6 +49,10 @@
 				</ul>
 			</div>
 
+			<div id="bordas">
+				Tipos de bordas:<span id="dotted">dotted</span> <span id="dashed"> dashed </span>, <span id="solid">solid</span>, <span id="double">double</span>, <span id="groove">groove</span>, <span id="ridge">ridge</span>, <span id="inset">inset</span>, <span id="outset">outset</span>, <span id="none">none</span> e <span id="hidden">hidden</span>.				
+
+			</div>
 
 
 
