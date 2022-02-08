@@ -7,8 +7,16 @@
 			.verde{color: green;}
 			.azul{color: blue;}
 			.formatacao{color: #FF8000;
-						font-size:30px;
+						font-size:20px;
 						font-family: "Lucida Handwriting", cursive; }
+			/*px = tamanho fixo
+			% = tamanho relativo
+			em = tamanho relativo ao conteiner pai
+			ex: div{font-size:64px;}
+				p{font-size:2em;}
+				o texto se p estiver dentro de div vai ser 2x maior que o padrão definido para div(64px))
+			*/
+			.texto{font-size: 30px;	}
 			#principal{ background: yellow; }
 			#topo{ background: blue; }
 			#conteudo{background: red;}
@@ -64,7 +72,14 @@
 
 			<div>
 				<p class="formatacao">
-					Texto de teste
+					Teste de formatação de fonte e cor.
+				</p>
+
+			</div>
+
+			<div>
+				<p class="texto">
+					Teste para tamanho de texto.
 				</p>
 			</div>
 
