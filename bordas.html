@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Bordas</title><meta charset="utf-8">
+		<title>Bordas, fontes e cores</title><meta charset="utf-8">
 		<style type="text/css">
 			p{color: blue;}
 			.verde{color: green;}
 			.azul{color: blue;}
+			.formatacao{color: #FF8000;
+						font-size:30px;
+						font-family: "Lucida Handwriting", cursive; }
 			#principal{ background: yellow; }
 			#topo{ background: blue; }
 			#conteudo{background: red;}
@@ -29,6 +32,9 @@
 			#outset{border:5px outset green;}
 			#none{border:5px none green;}
 			#hidden{border:5px hidden green;}
+			#rodape{background: green;
+					text-align: center;
+					font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif}
 		</style>
 	</head>
 	<body id="principal">
@@ -44,7 +50,7 @@
 				<a href="div_span.html">Div e Span</a>
 				</li>
 				<li>
-				<a href="">Bordas</a>
+				<a href="">Bordas, Fontes e Cores</a>
 				</li>
 				<li>
 				<a href="fontes_cores.html">Fontes e Cores</a>
@@ -54,11 +60,17 @@
 
 			<div id="bordas">
 				Tipos de bordas:<span id="dotted">dotted</span> <span id="dashed"> dashed </span>, <span id="solid">solid</span>, <span id="double">double</span>, <span id="groove">groove</span>, <span id="ridge">ridge</span>, <span id="inset">inset</span>, <span id="outset">outset</span>, <span id="none">none</span> e <span id="hidden">hidden</span>.				
-
 			</div>
 
+			<div>
+				<p class="formatacao">
+					Texto de teste
+				</p>
+			</div>
 
-
+			<div id="rodape">
+				Todos os <span class="azul">direitos</span> reservados.
+			</div>
 
 	</body>
 </html>
