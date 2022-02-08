@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Divisões</title><meta charset="utf-8">
+		<title>Divisões e Span</title><meta charset="utf-8">
 		<style type="text/css">
 			p{color: blue;}
 			.verde{color: green;}
+			.azul{color: blue;}
 			#principal{ background: yellow; }
 			#topo{ background: blue; }
+			#conteudo{background: red;}
+			.produto{background: grey;
+					margin: 10px;}
+			#rodape{background: green;
+					text-align: center;}
+			#assinatura{background: green;
+				text-align: center;}
 		</style>
 	</head>
 	<body id="principal">
@@ -19,10 +27,26 @@
 				<a href="classes_ids.html">Classes e IDs</a>
 				</li>
 				<li>
-				<a href="">Divisões</a>
+				<a href="">Div e Span</a>
 				</li>
 				</ul>
 			</div>
 
+			<div id="conteudo">
+				<div class="produto">
+					Produto 1
+				</div>
+				<div class="produto">
+					Produto 2
+				</div>
+				<div class="produto">
+					Produto 3
+				</div>
+
+			</div>
+
+			<div id="rodape">
+				Todos os <span class="azul">direitos</span> reservados.
+			</div>
 	</body>
 </html>
