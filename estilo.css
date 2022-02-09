@@ -1,0 +1,7 @@
+.texto{color: red;
+		background: orange;}
+#rodape{background: green;
+		text-align: center;}
+.fundo{background: yellow 
+	url('https://i.imgur.com/ulQcPEh.png') 
+	fixed round no-repeat center;}
