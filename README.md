@@ -1,3 +1,3 @@
 # Projeto_CSS3
  
-Projeto de site em formato da amazon prime com estudo em CSS3
+Estudo em CSS3 com padrão de site Amazon
