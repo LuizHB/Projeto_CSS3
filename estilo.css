@@ -1,7 +1,61 @@
 .texto{color: red;
 		background: orange;}
-#rodape{background: green;
-		text-align: center;}
 .fundo{background: yellow 
 	url('https://i.imgur.com/ulQcPEh.png') 
 	fixed round no-repeat center;}
+.produto{background: grey;
+		margin: 10px;}
+.verde{color: green;}
+.azul{color: blue;}
+.formatacao{color: #FF8000;
+			font-size:20px;
+			font-family: "Lucida Handwriting",
+			 cursive;}
+			/*px = tamanho fixo
+			% = tamanho relativo
+			em = tamanho relativo ao conteiner pai
+			ex: div{font-size:64px;}
+				p{font-size:2em;}
+				o texto se p estiver dentro de 
+				div vai ser 2x 
+				maior que o padrão definido 
+				para div(64px))
+			*/
+.textomod{font-size: 30px;
+		font-weight: bold; 
+		/*normal, bold, 100 até 900*/
+		font-style: italic; 
+		text-decoration: overline; 
+	/*overline, underline, line-through*/}
+#principal{ background: yellow;}
+#topo{ background: blue; }
+#conteudo{background: red;}
+#conteudo_principal{background: white;}
+#cabecalho{background: grey;}
+#rodape{background: green;
+		text-align: center;}
+#bordas{border-width:20px 15px 10px 5px;
+		border-color:red blue pink grey;
+		border-style: double solid 
+		dashed dotted;
+		text-align: center; }
+#dotted{border:5px dotted green;}
+#dashed{border:5px dashed green;}
+#solid{border:5px solid green;}
+#double{border:5px double green;}
+#groove{border:5px groove green;}
+#ridge{border:5px ridge green;}
+#inset{border:5px inset green;}
+#outset{border:5px outset green;}
+#none{border:5px none green;}
+#hidden{border:5px hidden green;}
+#rodapemod{background: green;
+		text-align: center;
+		font-family: "Palatino Linotype",
+		 "Book Antiqua", Palatino, serif}
+p{color: blue;}
+/* teste de fundo
+body{background-image: url('https://i.imgur.com/HbLzsMS.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center;} */
